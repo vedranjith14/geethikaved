@@ -30,7 +30,7 @@ export default function AnniversaryScreen({ onNext }) {
                 >
                     <div className="w-36 h-36 md:w-40 md:h-40 mx-auto bg-pink-500/10 rounded-full flex items-center justify-center backdrop-blur-md border-2 border-pink-400/30 overflow-hidden">
                         <img
-                            src="/gifs/anniversary.gif"
+                            src="/gifs/rapunzel.gif"
                             alt="img"
                             className="w-28 md:w-32 object-cover rounded-full"
                         />
