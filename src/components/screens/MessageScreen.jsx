@@ -7,17 +7,40 @@ import ScreenContainer from "../ScreenContainer"
 export default function MessageScreen() {
     const [showOverlay, setShowOverlay] = useState(false)
 
-    const romanticMessage = `Happy Anniversary, MY GEETHIKAAAAAA. ❤️
+    const romanticMessage = `Happy Anniversary, MY GEETHIKAAAAAA ❤️💖💞💗💘✨
 
-Dayum i spent one year with you (im jk i'm ready to spend my entire life 😁)Even though there are almost 14,000 kilometers between us, not a single day goes by when I don’t feel your presence in my heart. Distance may keep our hands apart, but it has never been strong enough to separate our souls. Every call, every message, every moment we wait for each other reminds me how special what we have truly is.
+Dayum… I spent one whole year with you (okay okay I’m joking — I’m ready to spend my entire life with you 😁😌💖). Even though there are almost 14,000 kilometers between us, not a single day goes by when I don’t feel your presence in my heart 🥺🥺🥺💓💞. Distance may keep our hands apart, but it has never been strong enough to separate our souls ✨💫. Every call, every message, every moment we wait for each other reminds me how special what we have truly is 💖👀✨.
 
-Sometimes I imagine the day when this distance will disappear and I’ll finally be able to hold you instead of just missing you. Until then, I promise to keep loving you with the same patience, faith, and devotion that brought us this far.
+Sometimes I imagine the day when this distance will disappear and I’ll finally be able to hold you instead of just missing you 🫂💞 (tu meri baahon mein duniya bhula dena) 🤗💖✨. Until then, I promise to keep loving you with the same patience, faith, and devotion that brought us this far 💫💗.
 
-I also feel grateful that **Lord Krishna** is watching over us. Just like His divine love stories teach us about devotion and faith, I believe He brought us together for a reason. I pray that He keeps blessing our love, protecting you, and guiding us until the day we no longer have to count kilometers between us.
+I also feel grateful that Lord Krishna is watching over us 🙏💙✨. Just like His divine love stories teach us about devotion and faith, I believe He brought us together for a reason 💫💖. I pray that He keeps blessing our love, protecting you, and guiding us until the day we no longer have to count kilometers between us 💞✨💗.
 
-You are not just my girlfriend — you are my peace, my strength, and the most beautiful part of my life. No matter how far apart we are, my heart will always find its way back to you.
+And today, on our anniversary, I want to make some promises to you from the bottom of my heart 💓💖. No matter what happens in life, I will always love you 💞💘💗. Even if you beat me sometimes 😅😂, even if you irritate me 🙄😆, even if you jokingly try to change my gender (btw dont call me pookie and cute cuz im not) 😂✨. I promise my love for you will never change 💖💞💓.
 
-Happy anniversary, my love. I can’t wait for the day when distance becomes just a memory and I can celebrate every moment beside you. 💫
+I promise to always take care of your heart 💗, respect you 🤍, and love you the way Lord Krishna loves Radha  with pure devotion and endless love 💙💫💖 (maybe this sentece is wrong cuz i promise to love u wayyyy more than how Krishna Loved Radha. I promise to devote my entire life to you 💞✨. For me, it has always been you… and if it’s not you, then it’s nobody 💘💗💖. You are my person, my peace, and my forever 🫶💞✨.
+
+I also want to say I’m truly sorry for the mistakes I’ve made 😔💔. I feel really bad when I make you cry sometimes 🥺💔. Seeing you hurt because of me is one of the worst feelings, and I’m sorry for every moment like that 💞. Please forgive me 😔❤️💗.
+
+I know you are a very strong woman who handles so many things alone 💪✨💖, and I admire you so much for that 👀💫. But I want you to know you don’t have to carry everything by yourself anymore 💞. I promise I’ll always stand by your side 🤝💖, support you 💫, and help you in whatever you want or decide in life 💗✨. No matter what you go through, I’ll always be there for you 💞🫂💖.
+
+And if I could sing something for you, it would sound like a soft romantic song in my heart 🎶💫💖:
+
+*Dooriyon mein bhi tera hi ehsaas rehta hai,* ✨
+*Har raat meri duaon mein tera naam rehta hai.* 💖
+*Ek din ye faasle bhi khatam ho jayenge,* 💫
+*Phir meri baahon mein tera poora jahaan rehta hai.* 💞
+
+Through every good moment and every difficult one, through every laugh and every tear, my love will stay the same 💖💞✨. Even across thousands of kilometers, my heart will always find its way back to you ❤️💗💘👀.
+
+You are not just my girlfriend — you are my peace, my strength, and the most beautiful part of my life 💞✨💖. I can’t wait for the day when distance becomes just a memory and I can finally celebrate every moment beside you 💫💗🫂.
+
+Ayyy whats wrong w u, sm romantic message I wrote, I used my entire english vocabulary and u're crying? Bruh wipe ur tears. I LOVE YOU SO MUCH "600 rupay tankah wale sainik ke liye apna sab kuch chhod aayi Maharani. Iss Janam ke liye alvida Princess Noor Jahan".
+
+Happy anniversary, my love 💖💘💞✨😘😘😘
+
+By your half bf (maybe full bf 😁),
+your teddy bear 🧸💞,
+your Doraemon 😁😘💖
 `
 
     const handleCardClick = () => {
