@@ -1,11 +1,55 @@
 "use client"
 
+import { useState } from "react"
 import { motion } from "framer-motion"
 import ScreenContainer from "../ScreenContainer"
 
-export default function IntroScreen({ onNext }) {
+export default function IntroScreenWithPassword({ onNext }) {
+    const [password, setPassword] = useState("")
+    const [authorized, setAuthorized] = useState(false)
+    const [error, setError] = useState("")
+
+    const correctPassword = "vedlovesgeethikamore"
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        if (password === correctPassword) {
+            setAuthorized(true)
+        } else {
+            setError("Oops! Wrong password 😅")
+            setPassword("")
+        }
+    }
+
     return (
         <ScreenContainer>
+            {/* Password Overlay */}
+            {!authorized && (
+                <div className="fixed inset-0 bg-black/70 flex items-center justify-center p-4 z-50">
+                    <div className="bg-purple-900/90 text-white rounded-2xl shadow-lg p-8 max-w-md w-full text-center">
+                        <h2 className="text-2xl font-bold mb-4">Enter Our Secret Word 💖</h2>
+                        <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+                            <input
+                                type="password"
+                                value={password}
+                                onChange={(e) => setPassword(e.target.value)}
+                                placeholder="Type the secret word"
+                                className="p-3 rounded-xl text-black text-center font-medium"
+                                autoFocus
+                            />
+                            <button
+                                type="submit"
+                                className="bg-pink-500 hover:bg-pink-400 transition-colors p-3 rounded-xl font-bold"
+                            >
+                                Unlock 💌
+                            </button>
+                        </form>
+                        {error && <p className="mt-3 text-red-400">{error}</p>}
+                    </div>
+                </div>
+            )}
+
+            {/* Original Intro Screen Content */}
             <div className="text-center max-w-2xl mx-auto">
                 {/* Main heading with romantic animation */}
                 <motion.div
