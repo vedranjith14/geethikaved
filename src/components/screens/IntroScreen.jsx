@@ -10,9 +10,9 @@ export default function IntroScreenWithPassword({ onNext }) {
     const [error, setError] = useState("")
 
     const [loveCheck, setLoveCheck] = useState(false) // show love question
-    const [loveAnswer, setLoveAnswer] = useState(null) // yes/no answer
+    const [loveAnswer, setLoveAnswer] = useState(null) // Ved or Geethika
 
-    const correctPassword = "vedlovesgeethikamore"
+    const correctPassword = "dairymilkoreo"
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -72,25 +72,25 @@ export default function IntroScreenWithPassword({ onNext }) {
                     <div className="bg-pink-900/90 text-white rounded-2xl shadow-lg p-8 max-w-md w-full text-center">
                         {!loveAnswer ? (
                             <>
-                                <h2 className="text-2xl font-bold mb-6">Do you love me? 💖</h2>
+                                <h2 className="text-2xl font-bold mb-6">Who loves their partner more? 💖</h2>
                                 <div className="flex justify-center gap-6">
                                     <button
-                                        onClick={() => handleLoveAnswer(true)}
+                                        onClick={() => handleLoveAnswer("Ved")}
                                         className="bg-pink-500 hover:bg-pink-400 p-3 rounded-xl font-bold w-24"
                                     >
-                                        Yes 😘
+                                        Ved 😘
                                     </button>
                                     <button
-                                        onClick={() => handleLoveAnswer(false)}
+                                        onClick={() => handleLoveAnswer("Geethika")}
                                         className="bg-purple-500 hover:bg-purple-400 p-3 rounded-xl font-bold w-24"
                                     >
-                                        No 😏
+                                        Geethika 😏
                                     </button>
                                 </div>
                             </>
-                        ) : loveAnswer ? (
+                        ) : loveAnswer === "Ved" ? (
                             <>
-                                <h2 className="text-2xl font-bold mb-6">I love you more 😘💖</h2>
+                                <h2 className="text-2xl font-bold mb-6">Yea indeed, VED loves Geethikaa moreeeee 😘💖</h2>
                                 <button
                                     onClick={handleShowIntro}
                                     className="bg-pink-500 hover:bg-pink-400 transition-colors p-3 rounded-xl font-bold"
@@ -100,7 +100,7 @@ export default function IntroScreenWithPassword({ onNext }) {
                             </>
                         ) : (
                             <>
-                                <h2 className="text-2xl font-bold mb-6">Oh really… so this is how it is 😏</h2>
+                                <h2 className="text-2xl font-bold mb-6">Uhm unfortunately, you’re wrong 😅💔</h2>
                                 <button
                                     onClick={handleBack}
                                     className="bg-purple-500 hover:bg-purple-400 transition-colors p-3 rounded-xl font-bold"
