@@ -49,7 +49,7 @@ export default function PhotoGalleryScreen({ onNext }) {
                     <motion.h1
                         className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent mb-4 text-balance text-center leading-tight"
                     >
-                        Our Beautiful Memories
+                        Precious moments from our miles-apart love story 🫣❤️🫂
                         {/* Heading */}
                     </motion.h1>
 
