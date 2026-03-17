@@ -28,7 +28,7 @@ export default function IntroScreen({ onNext }) {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.5, duration: 0.8 }}
                 >
-                    <div className="w-36 h-36 md:w-40 md:h-40 mx-auto bg-purple-500/10 rounded-full flex items-center justify-center backdrop-blur-md border-2 border-pink-400/30">
+                    <div className="w-36 h-36 md:w-40 md:h-40 mx-auto bg-purple-500/10 flex items-center justify-center backdrop-blur-md border-2 border-pink-400/30">
                         <img
                             src="/gifs/tangledintro.gif"
                             alt="Cute romantic illustration"
