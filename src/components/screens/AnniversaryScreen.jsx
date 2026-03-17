@@ -47,7 +47,7 @@ export default function AnniversaryScreen({ onNext }) {
                     <motion.span
                         className="text-purple-400"
                     >
-                        Cutiepiee
+                        Jaanuu ❤️😘
                     </motion.span>
                 </motion.h1>
 
@@ -58,7 +58,7 @@ export default function AnniversaryScreen({ onNext }) {
                     transition={{ delay: 0.6, duration: 0.8 }}
                 >
                     <p className="text-xl md:text-2xl text-pink-200 mb-6 text-pretty">
-                        We've been together for
+                        Celebrating 365 amazing days together!
                     </p>
 
                     <motion.div
@@ -74,7 +74,7 @@ export default function AnniversaryScreen({ onNext }) {
                         </motion.div>
                     </motion.div>
 
-                    <p className="text-xl md:text-2xl text-pink-200 mt-6 text-pretty">days and counting...</p>
+                    <p className="text-xl md:text-2xl text-pink-200 mt-6 text-pretty">Way More To Go! ❤️...</p>
                 </motion.div>
 
                 <motion.button
@@ -87,7 +87,7 @@ export default function AnniversaryScreen({ onNext }) {
                     whileTap={{ scale: 0.95 }}
                 >
                     <motion.div className="absolute inset-0 bg-gradient-to-r from-pink-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                    <span className="relative z-10">Continue Our Story 💫</span>
+                    <span className="relative z-10">Keep turning the pages of us😘💫</span>
                 </motion.button>
             </div>
         </ScreenContainer>
