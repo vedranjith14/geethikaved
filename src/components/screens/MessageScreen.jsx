@@ -11,7 +11,7 @@ export default function MessageScreen() {
 
 Dayum… I spent one whole year with you (okay okay I’m joking — I’m ready to spend my entire life with you 😁😌💖). Even though there are almost 14,000 kilometers between us, not a single day goes by when I don’t feel your presence in my heart 🥺🥺🥺💓💞. Distance may keep our hands apart, but it has never been strong enough to separate our souls ✨💫. Every call, every message, every moment we wait for each other reminds me how special what we have truly is 💖👀✨.
 
-Sometimes I imagine the day when this distance will disappear and I’ll finally be able to hold you instead of just missing you 🫂💞 (tu meri baahon mein duniya bhula dena) 🤗💖✨. Until then, I promise to keep loving you with the same patience, faith, and devotion that brought us this far 💫💗.
+Sometimes I imagine the day when this distance will disappear and I’ll finally be able to hold you instead of just missing you 🫂💞 (tu meri baahon mein duniya bhula dena) 🤗💖✨. Remember today was the first time u hugged me 🫣🫣🫣? We'll relive those moments within a few years, i promise. Until then, I promise to keep loving you with the same patience, faith, and devotion that brought us this far 💫💗.
 
 I also feel grateful that Lord Krishna is watching over us 🙏💙✨. Just like His divine love stories teach us about devotion and faith, I believe He brought us together for a reason 💫💖. I pray that He keeps blessing our love, protecting you, and guiding us until the day we no longer have to count kilometers between us 💞✨💗.
 
