@@ -159,7 +159,7 @@ I also feel grateful that Lord Krishna is watching over us 🙏💙✨. Just lik
 
 And today, on our anniversary, I want to make some promises to you from the bottom of my heart 💓💖. No matter what happens in life, I will always love you 💞💘💗. Even if you beat me sometimes 😅😂, even if you irritate me 🙄😆, even if you jokingly try to change my gender (btw dont call me pookie and cute cuz im not) 😂✨. I promise my love for you will never change 💖💞💓.
 
-I promise to always take care of your heart 💗, respect you 🤍, and love you the way Lord Krishna loves Radha  with pure devotion and endless love 💙💫💖 (maybe this sentece is wrong cuz i promise to love u wayyyy more than how Krishna Loved Radha. I promise to devote my entire life to you 💞✨. For me, it has always been you… and if it’s not you, then it’s nobody 💘💗💖. You are my person, my peace, and my forever 🫶💞✨.
+I promise to always take care of your heart 💗, respect you 🤍, and love you the way Lord Krishna loves Radha  with pure devotion and endless love 💙💫💖 (maybe this sentece is wrong cuz i promise to love u wayyyy more than how Krishna Loved Radha. I promise to devote my entire life to you 💞✨. For me, it has always been you… and if it’s not you, then it’s nobody 💘💗💖. You are my person, my peace, and my forever 🫶💞✨. I love how you get a little jealous sometimes 😏💖 It makes you look so cute! But don’t worry, my love, I will love only youuuuu 💘💞✨. Gopiyaan taare hain, chaand hai Radha 🌟💙.
 
 I also want to say I’m truly sorry for the mistakes I’ve made 😔💔. I feel really bad when I make you cry sometimes 🥺💔. Seeing you hurt because of me is one of the worst feelings, and I’m sorry for every moment like that 💞. Please forgive me 😔❤️💗.
 
@@ -183,6 +183,7 @@ Happy anniversary, my love 💖💘💞✨😘😘😘
 By your half bf (maybe full bf 😁),
 your teddy bear 🧸💞,
 your Doraemon 😁😘💖
+Ved Ranjith.
 `
 
     const handleCardClick = () => {
@@ -214,7 +215,7 @@ your Doraemon 😁😘💖
                         animate={{ backgroundPosition:["0% 50%","100% 50%","0% 50%"] }}
                         transition={{ duration:3, repeat:Infinity }}
                     >
-                        A Special Message For You
+                        From My Heart to Yours ❤️
                     </motion.h1>
                 </motion.div>
 
@@ -240,11 +241,11 @@ your Doraemon 😁😘💖
                             </motion.div>
 
                             <h3 className="text-2xl font-bold bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent mb-2">
-                                For You, My Cutiepiee
+                                For You, My Radha 🦚❤️
                             </h3>
 
                             <p className="text-purple-300 text-sm">
-                                Click to read my message
+                                Unwrap your anniversary note 🎁
                             </p>
                         </div>
                     </motion.div>
@@ -277,7 +278,7 @@ your Doraemon 😁😘💖
                                     <h3 className="text-3xl font-bold bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent mb-2">
                                         Happy Anniversary!
                                     </h3>
-                                    <p className="text-purple-300">This is just for you ♥</p>
+                                    <p className="text-purple-300">Just for You ♥</p>
                                 </div>
 
                                 <div className="h-80 overflow-y-auto pr-4">
