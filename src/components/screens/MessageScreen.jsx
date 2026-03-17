@@ -7,20 +7,7 @@ import ScreenContainer from "../ScreenContainer"
 export default function MessageScreen() {
     const [showOverlay, setShowOverlay] = useState(false)
 
-    const romanticMessage = `My Dearest Cutiepiee,
-
-Every day with you feels like a beautiful dream that I never want to wake up from. You've brought so much joy, laughter, and warmth into my life that I can't imagine a world without you in it.
-
-From the moment we first met, I knew there was something special about you. Your smile lights up my darkest days, your laugh is my favorite sound in the world, and your love has made me a better person.
-
-Thank you for being my partner, my best friend, and my greatest love. Thank you for all the little moments that make up our big love story - the morning coffees, the late-night conversations, the silly jokes, and the quiet moments where we just exist together in perfect harmony.
-
-I promise to love you through all of life's adventures, to support your dreams, to laugh with you, cry with you, and grow old with you. You are my today, my tomorrow, and my always.
-
-Happy Anniversary, my beautiful soul. Here's to many more years of love, laughter, and endless happiness together.
-
-With all my love and devotion,
-Your Forever Person 💕`
+    const romanticMessage = `veddddddddd
 
     const handleCardClick = () => {
         setShowOverlay(true)
