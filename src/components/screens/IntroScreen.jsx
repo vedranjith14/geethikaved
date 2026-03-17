@@ -30,8 +30,7 @@ export default function IntroScreenWithPassword({ onNext }) {
     }
 
     const handleShowIntro = () => {
-        setLoveCheck(false)
-        if (onNext) onNext()
+        setLoveCheck(false)  // only hide popup, show original intro screen
     }
 
     const handleBack = () => {
@@ -90,7 +89,7 @@ export default function IntroScreenWithPassword({ onNext }) {
                             </>
                         ) : loveAnswer === "Ved" ? (
                             <>
-                                <h2 className="text-2xl font-bold mb-6">Yea indeed, VED loves Geethikaa moreeeee 😘💖</h2>
+                                <h2 className="text-2xl font-bold mb-6">Yea indeed, VED loves you moreeeee 😘💖</h2>
                                 <button
                                     onClick={handleShowIntro}
                                     className="bg-pink-500 hover:bg-pink-400 transition-colors p-3 rounded-xl font-bold"
