@@ -44,7 +44,7 @@ export default function IntroScreen({ onNext }) {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 1, duration: 0.8 }}
                 >
-                    I made something special for you...
+                    I created this with love, just for you...
                 </motion.p>
 
                 {/* Start button */}
