@@ -7,7 +7,18 @@ import ScreenContainer from "../ScreenContainer"
 export default function MessageScreen() {
     const [showOverlay, setShowOverlay] = useState(false)
 
-    const romanticMessage = `veddddddddd
+    const romanticMessage = `Happy Anniversary, MY GEETHIKAAAAAA. ❤️
+
+Dayum i spent one year with you (im jk i'm ready to spend my entire life 😁)Even though there are almost 14,000 kilometers between us, not a single day goes by when I don’t feel your presence in my heart. Distance may keep our hands apart, but it has never been strong enough to separate our souls. Every call, every message, every moment we wait for each other reminds me how special what we have truly is.
+
+Sometimes I imagine the day when this distance will disappear and I’ll finally be able to hold you instead of just missing you. Until then, I promise to keep loving you with the same patience, faith, and devotion that brought us this far.
+
+I also feel grateful that **Lord Krishna** is watching over us. Just like His divine love stories teach us about devotion and faith, I believe He brought us together for a reason. I pray that He keeps blessing our love, protecting you, and guiding us until the day we no longer have to count kilometers between us.
+
+You are not just my girlfriend — you are my peace, my strength, and the most beautiful part of my life. No matter how far apart we are, my heart will always find its way back to you.
+
+Happy anniversary, my love. I can’t wait for the day when distance becomes just a memory and I can celebrate every moment beside you. 💫
+`
 
     const handleCardClick = () => {
         setShowOverlay(true)
