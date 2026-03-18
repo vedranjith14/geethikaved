@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import ScreenContainer from "../ScreenContainer"
 
@@ -181,7 +181,7 @@ Ayyy whats wrong w u, sm romantic message I wrote, I used my entire english voca
 Happy anniversary, my love 💖💘💞✨😘😘😘
 
 By your half bf (maybe full bf 😁),
-Your teddy bear 🧸💞,
+Your Teddy Bear 🧸💞,
 Your Doraemon 😁😘💖
 Ved Ranjith.
 `
@@ -192,6 +192,20 @@ Ved Ranjith.
             setBurst(false)
             setShowOverlay(true)
         }, 700)
+
+        // 🎵 Play Raabta when card is clicked
+        const audio = new Audio('/Raabta(KoshalWorld.Com)-[AudioTrimmer.com].mp3')
+        audio.loop = true
+        audio.volume = 0
+        audio.play().then(() => {
+            let vol = 0
+            const interval = setInterval(() => {
+                if(vol < 0.4) {
+                    vol += 0.02
+                    audio.volume = vol
+                } else clearInterval(interval)
+            }, 100)
+        }).catch(() => {})
     }
 
     const closeOverlay = () => setShowOverlay(false)
