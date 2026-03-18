@@ -10,10 +10,28 @@ import ScreenContainer from '../ScreenContainer';
 
 export default function PhotoGalleryScreen({ onNext }) {
     const photos = [
-        "/images/1.jpg",
-        "/images/2.jpg",
-        "/images/3.jpg",
-        "/images/4.jpg",
+        "/images/g1.jpeg",
+        "/images/g2.jpeg",
+        "/images/g3.jpeg",
+        "/images/g4.jpeg",
+        "/images/g5.jpeg",
+        "/images/g6.jpeg",
+        "/images/g7.jpeg",
+        "/images/g8.jpeg",
+        "/images/g9.jpeg",
+        "/images/g10.jpeg",
+        "/images/g11.jpeg",
+        "/images/g12.jpeg",
+        "/images/g13.jpeg",
+        "/images/g14.jpeg",
+        "/images/g15.jpeg",
+        "/images/g16.jpeg",
+        "/images/g17.jpeg",
+        "/images/g18.jpeg",
+        "/images/g20.jpeg",
+        "/images/g21.jpeg",
+        "/images/g22.jpeg",
+        "/images/g23.jpeg",
     ]
 
     const [details, setDetails] = React.useState(null)
