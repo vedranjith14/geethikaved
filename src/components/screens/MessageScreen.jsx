@@ -181,8 +181,8 @@ Ayyy whats wrong w u, sm romantic message I wrote, I used my entire english voca
 Happy anniversary, my love 💖💘💞✨😘😘😘
 
 By your half bf (maybe full bf 😁),
-your teddy bear 🧸💞,
-your Doraemon 😁😘💖
+Your teddy bear 🧸💞,
+Your Doraemon 😁😘💖
 Ved Ranjith.
 `
 
